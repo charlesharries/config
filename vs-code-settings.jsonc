@@ -1,0 +1,165 @@
+{
+  // Editor rules
+  "editor.fontFamily": "Input Mono",
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 22,
+  "editor.wordWrap": "on",
+  "editor.rulers": [
+    70,
+    120
+  ],
+  "explorer.confirmDelete": false,
+  "editor.scrollBeyondLastLine": true,
+  "editor.formatOnPaste": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.matchBrackets": "never",
+  "editor.tabCompletion": "on",
+  "editor.parameterHints.enabled": false,
+  "editor.colorDecorators": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "window.closeWhenEmpty": true,
+  //
+  // Workbench rules
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffc600",
+    "terminalCursor.foreground": "#ffc600",
+    "editorRuler.foreground": "#ffffff08"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "twig": "html",
+    "blade": "html"
+  },
+  //
+  // Language-specific rules
+  "git.ignoreMissingGitWarning": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "twig-language-2.hover": false,
+  // "html.format.enable": true,
+  "php.suggest.basic": false,
+  "javascript.validate.enable": false,
+  "[blade]": {
+    "editor.defaultFormatter": "onecentlin.laravel-blade",
+    "editor.tabSize": 4
+  },
+  "[go]": {
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": false
+  },
+  "[markdown]": {
+    "editor.fontSize": 14,
+    "editor.lineHeight": 28,
+    "editor.fontWeight": "400",
+    "editor.fontFamily": "IBM Plex Mono",
+    "editor.lineNumbers": "off"
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[rust]": {
+    "editor.detectIndentation": true
+  },
+  "[twig]": {},
+  "[vue]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[yaml]": {
+    "editor.fontFamily": "Input Mono"
+  },
+  //
+  // Formatting rules
+  "eslint.validate": [
+    "vue",
+    // "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "blade.format.enable": true,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1605960883055,
+  //
+  // Misc
+  "files.associations": {
+    "*.postcss": "vue-postcss",
+    ".stylelintrc": "json",
+    "*.pcss": "vue-postcss",
+    "*.tmpl": "html",
+    "*.liquid": "twig"
+  },
+  "outline.problems.enabled": false,
+  "outline.problems.badges": false,
+  "vsicons.associations.files": [
+    {
+      "icon": "css",
+      "extensions": [
+        "css"
+      ]
+    }
+  ],
+  "beautify.language": {
+    "html": [
+      // "html",
+      "blade"
+    ]
+  },
+  "go.useLanguageServer": true,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "phpcs.executablePath": "/Users/creator3/.composer/vendor/bin/phpcs",
+  "editor.linkedEditing": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "extensions.ignoreRecommendations": false,
+  "workbench.colorTheme": "One Monokai",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.lineHeight": 1.6,
+  "terminal.integrated.fontFamily": "Menlo",
+  "explorer.openEditors.visible": 0,
+  "npm.packageManager": "yarn",
+  "npm.autoDetect": "off",
+  "debug.javascript.codelens.npmScripts": "never",
+  "editor.formatOnSave": true,
+  "go.toolsManagement.autoUpdate": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "html.format.enable": false,
+  "eslint.format.enable": true
+}
